@@ -1,3 +1,4 @@
+function alertsection(){
 alert("welcome to try alert")
 var a= true ;
 var done = confirm("pengulangan?") ;
@@ -35,4 +36,21 @@ function pengulangan(){
         }
     }
     
+}
+}
+
+//angkot jawaban WPU 6.1
+function angkot(){
+    let jumlah = Number(prompt('Berikan angka yang sesuai!') );
+    var benar = true ; 
+    
+
+    while (benar){
+        let awal = 1;
+        while(awal <= jumlah ){
+            console.log('angkot '+awal+' berhasil');
+            awal++;
+        }
+       benar = confirm('lagi?');
+    }
 }
