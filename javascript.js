@@ -54,3 +54,19 @@ function angkot(){
        benar = confirm('lagi?');
     }
 }
+
+//switch 
+function multipleif(){
+    var nomor = Number(prompt('masukkan angka?'));
+    switch(nomor){
+        case 1 :
+         alert('angkamu adalah '+ nomor);
+         break
+        case 2 : 
+         alert('angkamu ' + nomor );
+         break
+        default :
+         alert('sengbener ongkomu') ;
+         break
+    }
+}
